@@ -248,6 +248,20 @@ footer {
 	}
 }
 @media screen and (max-width: 650px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .mapa, .video{
+    width: auto;
+  }
+  .video iframe { 
+    width: 90%;
+  }
+  nav { 
+    position: static;
+  }
+  .produtos {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
 	.produtos li {
 		width: 60%;
 		margin-bottom: 10px;
